@@ -1,0 +1,52 @@
+.dashboard {
+  width: 100%;
+  height: 90.6vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f0f8ff, #add8e6);
+}
+.counter {
+  width: 400px;
+  margin: 15px 0;
+  padding: 10px;
+  background: linear-gradient(135deg, #f0f8ff, #add8e6);
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  color: #004526;
+}
+h3 {
+  padding-left: 20px;
+  color: #004526;
+}
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+button:hover {
+ transform: scale(1.1);
+}
+button:nth-child(2) {
+  background: #28a745;
+  color: white;
+}
+button:nth-child(3) {
+  background: #dc3545;
+  color: white;
+}
+button:nth-child(4) {
+  background: #ffc61c;
+  color: black;
+}
