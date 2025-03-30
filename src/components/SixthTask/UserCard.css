@@ -1,0 +1,43 @@
+.cards {
+  background: linear-gradient(135deg, #f0f8ff, #add8e6);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.user-card {
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, #f0f8ff, #add8e6);
+}
+.user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.user-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.user-email,
+.user-age,
+.user-address {
+  font-size: 16px;
+  margin-bottom: 4px;
+  color: #555;
+}
+button {
+  padding: 8px 16px;
+  background-color: #005572;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #add8e6;
+}
