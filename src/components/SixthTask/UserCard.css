@@ -1,22 +1,27 @@
 .cards {
-  background: linear-gradient(135deg, #f0f8ff, #add8e6);
-  padding-top: 20px;
-  padding-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  background-color: #add8e6;
+  padding: 20px;
 }
 .user-card {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 16px;
-  max-width: 400px;
-  margin: auto;
+  width: 300px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background: linear-gradient(135deg, #f0f8ff, #add8e6);
 }
 .user-info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .user-name {
   font-size: 20px;
@@ -37,7 +42,8 @@ button {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 button:hover {
-  background-color: #add8e6;
+  background-color: #003d52;
 }
