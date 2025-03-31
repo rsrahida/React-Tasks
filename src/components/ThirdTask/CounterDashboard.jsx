@@ -12,19 +12,19 @@ const CounterDashboard = () => {
     <div className="dashboard">
       <h2>Counter Dashboard</h2>
       <div className="counter">
-        <h3>1.Counter: {counter1}</h3>
+        <h3>1.Counter:{counter1}</h3>
         <button onClick={() => setCounter1(counter1 + 1)}>+</button>
         <button onClick={() => setCounter1(counter1 - 1)}>-</button>
         <button onClick={() => setCounter1(0)}>Reset</button>
       </div>
       <div className="counter">
-        <h3>2.Counter: {counter2}</h3>
+        <h3>2.Counter:{counter2}</h3>
         <button onClick={() => setCounter2(counter2 + 1)}>+</button>
         <button onClick={() => setCounter2(counter2 - 1)}>-</button>
         <button onClick={() => setCounter2(0)}>Reset</button>
       </div>
       <div className="counter">
-        <h3>3.Counter: {counter3}</h3>
+        <h3>3.Counter:{counter3}</h3>
         <button onClick={() => setCounter3(counter3 + 1)}>+</button>
         <button onClick={() => setCounter3(counter3 - 1)}>-</button>
         <button onClick={() => setCounter3(0)}>Reset</button>

@@ -8,14 +8,14 @@
   background: linear-gradient(135deg, #f0f8ff, #add8e6);
 }
 .counter {
-  width: 400px;
+  width: 450px;
   margin: 15px 0;
   padding: 10px;
   background: linear-gradient(135deg, #f0f8ff, #add8e6);
   border-radius: 8px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   display: flex;
-  gap: 15px;
+  gap: 25px;
   justify-content: center;
   align-items: center;
 }
@@ -36,7 +36,7 @@ button {
   transition: 0.3s;
 }
 button:hover {
- transform: scale(1.1);
+ transform: scale(1);
 }
 button:nth-child(2) {
   background: #28a745;
